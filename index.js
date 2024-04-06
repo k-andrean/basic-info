@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 
   // If no pathname provided, default to index.html
   if (pathname === '/') {
-    pathname = '/index.html';
+    pathname = '/index';
   }
 
   // Construct the filename based on the requested pathname
